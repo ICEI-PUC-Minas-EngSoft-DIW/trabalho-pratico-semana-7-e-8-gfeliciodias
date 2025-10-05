@@ -19,25 +19,25 @@ Leia o enunciado completo no Canvas.
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+<img  src"https://drive.google.com/drive/folders/1ZTWhr2gQnXn2IkeiF9Xv2RlNJmZyu2si?usp=sharing" alt"">
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+<img  src"https://drive.google.com/drive/folders/1ZTWhr2gQnXn2IkeiF9Xv2RlNJmZyu2si?usp=sharing" alt"">
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
 const dados = [
-  {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
-  }
+      {
+      "id": 1,
+      "titulo": "Camisa Ansiedade",
+      "descricao": "Camisa que retrata sinais de ansiedade, e como sair da zona de conforto é necessária.",
+      "conteudo": "Camisa preta com a escrita ansiedade na frente no peito com efeito borrado, na parte de tras um fantasma gritando com a frase 'Your confort zone will kil you'.",
+      "categoria": "Camisa",
+      "autor": "Gabriel Felicio",
+      "data": "2025-002-01",
+      "imagem": "https://i.pinimg.com/1200x/4a/c0/ac/4ac0ac76bcb204067296a7fc3d6a85a8.jpg"
+    },
 ]
 ```

@@ -7,7 +7,7 @@ const dados = [
     "categoria": "Camisa",
     "autor": "Gabriel Felicio",
     "data": "2025-002-01",
-    "imagem": "img/mobilidade.jpg"
+    "imagem": "https://i.pinimg.com/1200x/4a/c0/ac/4ac0ac76bcb204067296a7fc3d6a85a8.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@ const dados = [
     "categoria": "Camisa",
     "autor": "Gabriel Felicio",
     "data": "2025-02-01",
-    "imagem": "img/tecnologia_6g.jpg"
+    "imagem": "https://i.pinimg.com/736x/7c/f6/27/7cf627e368dc648e1e13b852cc29df67.jpg"
   },
   {
     "id": 3,
@@ -27,6 +27,6 @@ const dados = [
     "categoria": "Camisa",
     "autor": "Gabriel Felicio",
     "data": "2025-02-01",
-    "imagem": "img/festival_musica.jpg"
+    "imagem": "https://i.pinimg.com/736x/d8/7c/02/d87c02e0951ed4e52197ddf265d24891.jpg"
   }
 ]
