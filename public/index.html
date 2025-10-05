@@ -8,6 +8,47 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-    <h1>Olá mundo</h1>
+    
+    <header>
+        <h1> ABOUT </h1>
+        <img src="https://i.pinimg.com/736x/72/78/b1/7278b1e6d5179b49f1f8c934f04f3037.jpg" alt="">
+        <h1> SOCIAL </h1>
+        
+    </header>
+    
+    <button>
+    <script src="app.js"></script>
+    <script>
+     const container = document.getElementById("camisas-container");
+
+    dados.forEach(item => {
+      const card = document.createElement("div");
+      card.classList.add("card");
+
+      card.innerHTML = `
+        <img src="${item.imagem}" alt="${item.titulo}" />
+        <h2>${item.titulo}</h2>
+        <p>${item.descricao}</p>
+        <button onlick="detalhes.html?id=${item.id}">Ver Detalhes</button>
+      `;
+
+      container.appendChild(card);
+    });   
+    </script>
+    </button>
+    <section id ="Fotos">
+        <div>
+            
+        </div>
+    </section>
+    
+        <section id="Texto">
+        
+    </section>
+    
+    <footer>
+        <p>contacts</p>
+        
+    </footer>
 </body>
 </html>

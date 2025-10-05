@@ -12,10 +12,10 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Gabriel Felicio Dias  
+- Matricula: 815710
+- Proposta de projeto escolhida: Loja de roupas
+- Breve descrição sobre seu projeto: Tenho uma loja de roupa e vou utilizar esse projeto para criar o site 
 
 ## Print da Home-Page
 

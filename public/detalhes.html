@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detalhes da Notícia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="detalhes-container" class="container"></div>
+
+  <script src="app.js"></script>
+  <script>
+    const id = getQueryParam("id");
+    const noticia = dados.find(item => item.id == id);
+    const container = document.getElementById("detalhes-container");
+
+    if (camisa) {
+      container.innerHTML = `
+        <img src="${camisa.imagem}" alt="${camisa.titulo}" />
+        <h1>${camisa.titulo}</h1>
+        <p><strong>Categoria:</strong> ${camisa.categoria}</p>
+        <p><strong>Autor:</strong> ${camisa.autor}</p>
+        <p><strong>Data:</strong> ${camisa.data}</p>
+        <p>${camisa.conteudo}</p>
+        <a href="index.html">← Voltar</a>
+      `;
+    } else {
+      container.innerHTML = "<p>Camisa não encontrada.</p>";
+    }
+  </script>
+</body>
+</html>
